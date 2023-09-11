@@ -12,10 +12,11 @@ let[title,setTitle]=useState("")
     };
 const onClicButtonHandler=()=>{
     props.addTitle(title)
+    setTitle("")
 }
     return (
         <div>
-            <input onChange={onChangeInputHandler}/>
+            <input value={title} onChange={onChangeInputHandler}/>
             <button onClick={onClicButtonHandler}>+</button>
         </div>
     );

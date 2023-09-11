@@ -15,6 +15,8 @@ function App() {
     )
     const addTitle=(title:string)=>{
         console.log(title)
+        let newMessage={message: title};
+        setMessage([newMessage,...message])
     }
     return (
         <div className="App">
