@@ -13,6 +13,7 @@ function App() {
             {message: 'message3'},
             {message: 'message4'},
             {message: 'message5'}
+            {message: 'message6'}
         ]
     )
     let [title, setTitle] = useState("")
